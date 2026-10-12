@@ -1,0 +1,121 @@
+# ==========================================
+# PYTHON & FASTAPI
+# ==========================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.bin/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Virtual Environments (Venv / Poetry / Pipenv)
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.env
+.venv*
+poetry.lock  # Opcional: descomentar si prefieres no versionar el lock de poetry
+Pipfile.lock
+
+# FastAPI / Uvicorn logs
+*.log
+logs/
+
+
+# ==========================================
+# NODE.JS
+# ==========================================
+# Dependencies (carpetas y subcarpetas)
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Build outputs
+dist/
+build/
+
+
+# ==========================================
+# ANGULAR
+# ==========================================
+# Compiled output
+/dist/
+/tmp/
+/out-tsc/
+bazel-out/
+
+# IDEs and Editors (VS Code, WebStorm, etc.)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Angular specific
+.angular/
