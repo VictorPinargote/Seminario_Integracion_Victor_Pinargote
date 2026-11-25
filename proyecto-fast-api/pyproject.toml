@@ -1,10 +1,10 @@
 [project]
-name = "proeycto-fastapi"
+name = "proyecto-fast-api"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 authors = [
-    { name = "Victor Pinargote", email = "joelpinargote76@gmail.com" }
+    { name = "hhhernan234", email = "varashernan9@gmail.com" }
 ]
 requires-python = ">=3.12"
 dependencies = [
@@ -12,7 +12,7 @@ dependencies = [
 ]
 
 [project.scripts]
-proeycto-fastapi = "proeycto_fastapi:main"
+proyecto-fast-api = "proyecto_fast_api:main"
 
 [build-system]
 requires = ["uv_build>=0.13.7,<0.14.0"]
